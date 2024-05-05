@@ -33,7 +33,7 @@ object SkillsGUI {
             addComponent(
                 PlayerInfoIcon(
                     plugin.configYml.getSubsection("gui.player-info"),
-                    opensStatMenu = true
+                    opensStatMenu = false
                 )
             )
 
